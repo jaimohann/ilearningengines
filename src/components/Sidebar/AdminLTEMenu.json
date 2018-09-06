@@ -1,0 +1,400 @@
+ [
+      {
+        "key": "1",
+        "type": "header",
+        "caption": "MAIN NAVIGATION"
+      },
+      {
+        "key": "2",
+        "type": "group",
+        "caption": "Dashboard",
+        "icon": [
+          "fas",
+          "tachometer-alt"
+        ],
+        "active": true,
+        "open": true,
+        "children": [
+          {
+            "key": "3",
+            "route": "/",
+            "caption": "Dashboard v1",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          },
+          {
+            "key": "4",
+            "route": "/",
+            "caption": "Dashboard v2",
+            "icon": [
+              "far",
+              "circle"
+            ],
+            "active": true
+          }
+        ]
+      },
+      {
+        "key": "5",
+        "type": "group",
+        "caption": "Layout Options",
+        "icon": [
+          "far",
+          "copy"
+        ],
+        "labels": [
+          {
+            "class": "label-primary",
+            "caption": "4"
+          }
+        ],
+        "active": false,
+        "open": false,
+        "children": [
+          {
+            "key": "6",
+            "route": "/",
+            "caption": "Top Navigation",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          },
+          {
+            "key": "7",
+            "route": "/",
+            "caption": "Boxed",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          },
+          {
+            "key": "8",
+            "route": "/",
+            "caption": "Fixed",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          },
+          {
+            "key": "9",
+            "route": "/",
+            "caption": "Collapsed Sidebar",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "10",
+        "type": "group",
+        "caption": "Widgets",
+        "icon": [
+          "fas",
+          "th"
+        ],
+        "labels": [
+          {
+            "class": "bg-green",
+            "caption": "new"
+          }
+        ],
+        "active": false,
+        "open": false,
+        "route": "/"
+      },
+      {
+        "key": "11",
+        "type": "group",
+        "caption": "Charts",
+        "icon": [
+          "fas",
+          "chart-pie"
+        ],
+        "active": false,
+        "open": false,
+        "children": [
+          {
+            "key": "12",
+            "route": "/",
+            "caption": "Chart JS",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          },
+          {
+            "key": "13",
+            "route": "/",
+            "caption": "Morris",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          },
+          {
+            "key": "14",
+            "route": "/",
+            "caption": "Flot",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          },
+          {
+            "key": "15",
+            "route": "/",
+            "caption": "Inline Charts",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "16",
+        "type": "group",
+        "caption": "UI Elements",
+        "icon": [
+          "fas",
+          "laptop"
+        ],
+        "active": false,
+        "open": false,
+        "children": [
+          {
+            "key": "17",
+            "route": "/",
+            "caption": "General",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          },
+          {
+            "key": "18",
+            "route": "/",
+            "caption": "Icon",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          },
+          {
+            "key": "19",
+            "route": "/",
+            "caption": "Buttons",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          },
+          {
+            "key": "20",
+            "route": "/",
+            "caption": "Timeline",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          },
+          {
+            "key": "21",
+            "route": "/",
+            "caption": "Modals",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "22",
+        "type": "group",
+        "caption": "Forms",
+        "icon": [
+          "far",
+          "edit"
+        ],
+        "active": false,
+        "open": false,
+        "children": [
+          {
+            "key": "23",
+            "route": "/",
+            "caption": "General Elements",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          },
+          {
+            "key": "24",
+            "route": "/",
+            "caption": "Advnced Elements",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          },
+          {
+            "key": "25",
+            "route": "/",
+            "caption": "Editors",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "26",
+        "type": "group",
+        "caption": "Tables",
+        "icon": [
+          "fas",
+          "table"
+        ],
+        "active": false,
+        "open": false,
+        "children": [
+          {
+            "key": "27",
+            "route": "/",
+            "caption": "Simple tables",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          },
+          {
+            "key": "28",
+            "route": "/",
+            "caption": "Data tables",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "29",
+        "type": "group",
+        "caption": "Calendar",
+        "icon": [
+          "far",
+          "calendar"
+        ],
+        "labels": [
+          {
+            "class": "bg-red",
+            "caption": "3"
+          },
+          {
+            "class": "bg-blue",
+            "caption": "17"
+          }
+        ],
+        "active": false,
+        "open": false,
+        "route": "/"
+      },
+      {
+        "key": "30",
+        "type": "group",
+        "caption": "Mailbox",
+        "icon": [
+          "fas",
+          "envelope"
+        ],
+        "labels": [
+          {
+            "class": "bg-yellow",
+            "caption": "12"
+          },
+          {
+            "class": "bg-green",
+            "caption": "16"
+          },
+          {
+            "class": "bg-red",
+            "caption": "5"
+          }
+        ],
+        "active": false,
+        "open": false,
+        "route": "/"
+      },
+      {
+        "key": "31",
+        "type": "group",
+        "caption": "Examples",
+        "icon": [
+          "fas",
+          "folder"
+        ],
+        "active": false,
+        "open": false,
+        "children": [
+          {
+            "key": "32",
+            "route": "/",
+            "caption": "Simple tables",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          },
+          {
+            "key": "33",
+            "route": "/",
+            "caption": "Data tables",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "34",
+        "type": "group",
+        "caption": "Multilevel",
+        "icon": [
+          "fas",
+          "share"
+        ],
+        "active": false,
+        "open": false,
+        "children": [
+          {
+            "key": "35",
+            "route": "/",
+            "caption": "Simple tables",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          },
+          {
+            "key": "36",
+            "route": "/",
+            "caption": "Data tables",
+            "icon": [
+              "far",
+              "circle"
+            ]
+          }
+        ]
+      }
+    ]

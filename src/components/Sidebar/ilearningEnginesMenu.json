@@ -1,0 +1,153 @@
+[
+    {
+      "key": "1",
+      "type": "header",
+      "caption": "MAIN NAVIGATION"
+    },
+    {
+      "key": "2",
+      "route": "/Dashboard",
+      "type": "group",
+      "caption": "Dashboard",
+      "icon": [
+        "fas",
+        "tachometer-alt"
+      ],
+      "active": true,
+      "open": true,
+      "children": [
+        {
+          "key": "3",
+          "route": "/Trainee",
+          "caption": "Trainee",
+          "icon": [
+            "far",
+            "circle"
+          ]
+        },
+        {
+          "key": "4",
+          "route": "/Curriculum",
+          "caption": "Curriculum",
+          "icon": [
+            "far",
+            "circle"
+          ]
+        },
+        {
+          "key": "5",
+          "route": "/Process",
+          "caption": "Process",
+          "icon": [
+            "far",
+            "circle"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "6",
+      "type": "group",
+      "caption": "Trainee",
+      "icon": [
+        "fas",
+        "user-graduate"
+      ],
+      
+      "active": false,
+      "open": false,
+      "children": [
+        {
+          "key": "7",
+          "route": "/",
+          "caption": "Update",
+          "icon": [
+            "far",
+            "circle"
+          ]
+        },
+        {
+          "key": "8",
+          "route": "/",
+          "caption": "Add",
+          "icon": [
+            "far",
+            "circle"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "9",
+      "type": "group",
+      "caption": "Curriculum",
+      "icon": [
+        "fas",
+        "book"
+      ],
+      
+      "active": false,
+      "open": false,
+      "route": "/",
+      "children": [
+        {
+          "key": "10",
+          "route": "/",
+          "caption": "Assign",
+          "icon": [
+            "far",
+            "circle"
+          ]
+        },
+        {
+          "key": "11",
+          "route": "/",
+          "caption": "Update",
+          "icon": [
+            "far",
+            "circle"
+          ]
+        },
+        {
+          "key": "12",
+          "route": "/",
+          "caption": "Create",
+          "icon": [
+            "far",
+            "circle"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "13",
+      "type": "group",
+      "caption": "Module",
+      "icon": [
+        "fas",
+        "cog"
+      ],
+      "active": false,
+      "open": false,
+      "children": [
+        {
+          "key": "14",
+          "route": "/",
+          "caption": "Update",
+          "icon": [
+            "far",
+            "circle"
+          ]
+        },
+        {
+          "key": "15",
+          "route": "/",
+          "caption": "Create",
+          "icon": [
+            "far",
+            "circle"
+          ]
+        }
+      ]
+    }
+  ]

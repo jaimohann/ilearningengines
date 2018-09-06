@@ -1,0 +1,48 @@
+{
+  "header": {
+    "required": true,
+    "logo": {
+      "required": true,
+      "expanded": "iLearningEngines",
+      "collapsed": "ILE"
+    },
+    "navbar": {
+      "required": true,
+      "custommenu": {
+        "required": true,
+        "messages": {
+          "required": true
+        },
+        "tasks": {
+          "required": true
+        },
+        "notifications": {
+          "required": true
+        },
+        "activeuser": {
+          "required": true
+        }
+      },
+      "toggler": {
+        "required": true
+      }
+    }
+  },
+  "navigation": {
+    "required": true,
+    "direction": "side",
+    "items": []
+  },
+  "controlbar": {
+    "required": false,
+    "items": []
+  },
+  "footer": {
+    "required": true,
+    "fixed": false,
+    "copyright": "2018-2019",
+    "companyurl": "https://ilearningengines.com",
+    "companyname": "iLearning Engines",
+    "version": "1.0.0"
+  }
+}
