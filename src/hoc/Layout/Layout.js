@@ -15,13 +15,13 @@ const layout = (props) => {
 
     return (  
         <Aux>
-            {/* <BrowserRouter> */}
+            
                 {header.required?<Header config={header}></Header>:null}
                 {navigation.required?<Sidebar config={navigation}></Sidebar>:null}
                 <Content></Content>
                 {footer.required?<Footer config={footer}></Footer>:null}
                 {controlbar.required?<Controlbar config={controlbar}></Controlbar>:null}
-            {/* </BrowserRouter> */}
+            
         </Aux>
     );
 }

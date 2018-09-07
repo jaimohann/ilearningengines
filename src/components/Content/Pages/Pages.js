@@ -7,8 +7,8 @@ const pages = () => {
     return ( 
         <section className="content">
             
-                <Route path="/Dashboard" render={Dashboard}></Route>
-                <Route path="/Trainee" render={Trainee}></Route>
+                <Route path="/" exact render={Dashboard}></Route>
+                <Route path="/Trainee" exact render={Trainee}></Route>
             
         </section>
 
